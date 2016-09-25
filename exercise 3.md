@@ -21,3 +21,7 @@ However,it open a new wold to me and lead me to my first computer language.
 ![picture cannot see](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/GIF2.gif)
 
 
+##APPRECIATION
+THANKS TO my roommate 陈叶波，it's him who give us methods to use computer language.And with his help,we grow up quickly!! 
+
+
