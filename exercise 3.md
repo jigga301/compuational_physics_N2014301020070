@@ -6,7 +6,7 @@ However,it open a new wold to me and lead me to my first computer language.
 
 ##Content
 1，make name move
-2，design a figure and make it seem to move
+2，design a figure and make it seem to move in a 80*80 dot matrix.
 
 
 ## Way to make program
@@ -16,7 +16,7 @@ However,it open a new wold to me and lead me to my first computer language.
 ==
 ![picture cannot see](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/GIF.gif)
 
-###[code](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/xjbx.py)
+###[code2](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/xjbx.py)
 ==
 ![picture cannot see](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/GIF2.gif)
 
