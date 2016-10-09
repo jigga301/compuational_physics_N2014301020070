@@ -13,7 +13,7 @@ to use the same method to describe the double partical problem,and plot the pict
 ##Background
 ### Radiation decay
 For a large number of ![]((http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) nuclei,which would usually be the case if we were actually doing an experiment to study radioactive decay,.If Nu（t） is the number of Uranium nuclei that are present in the sample at time t,the behavior is governed by the differential equation<br>
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D),where ![](http://latex.codecogs.com/gif.latex?%5Ctau)<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D)
 where τ is the "time constant" for the decay.You can show by direct substitution that the solution to this differential equation is<br>
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D)
 where Nu（0）is the number of nuclei present at t=0.This solution may be familiar to you;similar equations and similar solutions are found in many other contexts.We note that at time t=τ  a fraction e-1 of the nucler that were initially present has not yet decayed.It turns out that τ is the mean lifetime of a nucleus.
