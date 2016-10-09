@@ -13,9 +13,9 @@ to use the same method to describe the double partical problem,and plot the pict
 ##Background
 ### Radiation decay
 For a large number of ![](http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) nuclei,which would usually be the case if we were actually doing an experiment to study radioactive decay.If Nu（t） is the number of Uranium nuclei that are present in the sample at time t,the behavior is governed by the differential equation<br>
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D)
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D)<br>
 where τ is the "time constant" for the decay.You can show by direct substitution that the solution to this differential equation is<br>
-![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D)
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D)<br>
 where Nu（0）is the number of nuclei present at t=0.This solution may be familiar to you;similar equations and similar solutions are found in many other contexts.We note that at time t=τ  a fraction e-1 of the nucler that were initially present has not yet decayed.It turns out that τ is the mean lifetime of a nucleus.
 
 ### A numerical approach
@@ -31,6 +31,7 @@ so from the physics of the problem we know the founctional form of the derivativ
                                 
 ====
 ##content(solution)
+####basic codes
 ```
 import pylab as pl
 class uranium_decay:
@@ -59,10 +60,10 @@ class uranium_decay:
         for i in range(self.nsteps):
             tmp_A = self.nA_uranium[i] - self.nA_uranium[i] / self.tau * self.dt+self.nB_uranium[i] / self.tau * self.dt
             tmp_B = self.nB_uranium[i] - self.nB_uranium[i] / self.tau * self.dt+self.nA_uranium[i]/ self.tau * self.dt            
-            changeA = -self.nA_uranium[i] / self.tau +self.nB_uranium[i] / self.tau
-            changeB=  -self.nB_uranium[i] / self.tau +self.nA_uranium[i]/ self.tau
             self.nA_uranium.append(tmp_A)
             self.nB_uranium.append(tmp_B)
+            changeA = -self.nA_uranium[i+1] / self.tau +self.nB_uranium[i+1] / self.tau
+            changeB=  -self.nB_uranium[i+1] / self.tau +self.nA_uranium[i+1]/ self.tau
             self.decayA.append(changeA)
             self.decayB.append(changeB)
             self.t.append(self.t[i] + self.dt)
@@ -82,6 +83,14 @@ a = uranium_decay()
 a.calculate()
 a.show_results()
 ```
+('Initial number of nuclei A ->', 100)<br>
+('Initial number of nuclei B ->', 0)<br>
+('Time constant ->', 1)<br>
+('time step -> ', 0.05)<br>
+('total time -> ', 5)<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-1.png)
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-2.png)
+
 
 
 
