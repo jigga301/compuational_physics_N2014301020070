@@ -12,21 +12,21 @@ to use the same method to describe the double partical problem,and plot the pict
 ===
 ##Background
 ### Radiation decay
-For a large number of ![]() nuclei,which would usually be the case if we were actually doing an experiment to study radioactive decay,.If ![ ]()is the number of Uranium nuclei that are present in the sample at time t,the behavior is governed by the differential equation<br>
-![]()<br>
-where ![]() is the "time constant" for the decay.You can show by direct substitution that the solution to this differential equation is<br>
-![]()
-where ![]is the number of nuclei present at t=0.This solution may be familiar to you;similar equations and similar solutions are found in many other contexts.We note that at time ![]() a fraction ![]()of the nucler that were initially present has not yet decayed.It turns out that ![]() is the mean lifetime of a nucleus.
+For a large number of ![]((http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) nuclei,which would usually be the case if we were actually doing an experiment to study radioactive decay,.If Nu（t） is the number of Uranium nuclei that are present in the sample at time t,the behavior is governed by the differential equation<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D),where ![](http://latex.codecogs.com/gif.latex?%5Ctau)<br>
+where τ is the "time constant" for the decay.You can show by direct substitution that the solution to this differential equation is<br>
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D)
+where Nu（0）is the number of nuclei present at t=0.This solution may be familiar to you;similar equations and similar solutions are found in many other contexts.We note that at time t=τ  a fraction e-1 of the nucler that were initially present has not yet decayed.It turns out that τ is the mean lifetime of a nucleus.
 
 ### A numerical approach
 Basing on the Taylor expansion for ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D)<br>
-![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%3DN_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%28%5CDelta%20t%29%5E2&plus;...)
-then ignore the terms that involves second and higher power of ![](),leaving us with<br>
-![]()<br>
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%3DN_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%28%5CDelta%20t%29%5E2&plus;...)<br>
+then ignore the terms that involves second and higher power of △t,leaving us with<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/1.4.gif)<br>
 The same result can be obtained from the definition of a derivative.The derivative of N evaluated at time t can be written as<br>
-![]()<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/da%20shizi.gif)<br>
 so from the physics of the problem we know the founctional form of the derivative ,wo obtain:<br>
-![]()
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28t&plus;%5CDelta%20t%29%5Capprox%20N_%7BU%7D%28t%29-%5Cfrac%7BN_%7BU%7D%28t%29%7D%7B%5Ctau%7D%5CDelta%20t)
 
                                 
 ====
