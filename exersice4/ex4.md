@@ -90,7 +90,39 @@ a.show_results()
 ('total time -> ', 5)<br>
 ![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-1.png)
 ![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-2.png)
+<br>
+By calculating the equations of problem<br>
+we can get a analytical solution<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/jiexijie.gif)<br>
+the we put the calculated solution into python with numerical solution we got:
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-3.png)<br>
+By changing different parameter we can get a lot of diferent situation,here we list these picture:<br>
+#####total time is small for example
+<br>
+('Initial number of nuclei A ->', 100)
+('Initial number of nuclei B ->', 0)
+('Time constant ->', 0.1)
+('time step -> ', 0.05)
+('total time -> ', 0.1)<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-4.png)<br>
+<br>
+('Initial number of nuclei A ->', 100)
+('Initial number of nuclei B ->', 0)
+('Time constant ->', 0.1)
+('time step -> ', 0.05)
+('total time -> ', 0.25)<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-5.png)
+#####number of B is not vanish at first
+<br>
+('Initial number of nuclei A ->', 100)
+('Initial number of nuclei B ->', 50)
+('Time constant ->', 0.1)
+('time step -> ', 0.05)
+('total time -> ', 1)<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/exersice4/figure_1-6.png)
 
+##conclusion
+doing homework by myself is so great
 
 
 
