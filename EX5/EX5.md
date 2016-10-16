@@ -59,3 +59,9 @@ a.calculate()
 a.show_results()
 ```
 ![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/figure_1.png)<br>
+##conclude
+Eular equation is vary perfect to solve many simple ODE problem
+##Acknowledgement
+Chapter 2 Realistic Projectile Motion
+Chapter 1 A First Numerical Problem
+Matplotlib Tutorial
