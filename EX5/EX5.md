@@ -9,12 +9,12 @@ Use the Eular method to calculate
 
 ##solution
 ###with no resistant
-only consider the accelarate g.so we have such equation :
-![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003220.png)
-then decompose it so that it can be used by Eular method
-![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003231.png)
-therefore
-![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003244.png)
+only consider the accelarate g.so we have such equation :<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003220.png)<br>
+then decompose it so that it can be used by Eular method<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003231.png)<br>
+therefore<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/QQ%E6%88%AA%E5%9B%BE20161017003244.png)<br>
 so the code is below:
 ```
 import pylab as pl
