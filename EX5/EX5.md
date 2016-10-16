@@ -58,4 +58,4 @@ a =  cannon_shell_trajextories()
 a.calculate()
 a.show_results()
 ```
-！[](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/figure_1.png)<br>
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/figure_1.png)<br>
