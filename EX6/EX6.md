@@ -11,7 +11,7 @@ Consider cases in which the target is higher and lower thwn the cannon.Also inve
 ##解决办法
 从互联网得知炮弹的速度大致在2km/s,风速大约为30m/s(假令风向水平)，现在只需要控制角度就能将炮弹打击到制定位置
 (下面公式是先在作业部落上用latex编辑再截图)
-![]()
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/QQ%E6%88%AA%E5%9B%BE20161024004807.png)
 
 ####编出来的关于相关常微分方程的主要程序是这样的：
 ```python
@@ -34,4 +34,7 @@ Consider cases in which the target is higher and lower thwn the cannon.Also inve
 ```
 ####作图
 > * 先利用‘for i in numpy.arange(91)’画出角度从1到90度
-![]()
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/1%E5%88%B090%E5%BA%A6%E9%A3%9E%E8%A1%8C%E7%82%AE%E5%BC%B9.png)
+观察所有大致角度规律，当然肉眼看是毫无作用的。
+> * 接下来用一个循环确定设计的准确值
+！[](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/figure_1.png)
