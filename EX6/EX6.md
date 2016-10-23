@@ -50,9 +50,19 @@ Consider cases in which the target is higher and lower thwn the cannon.Also inve
 在0到90度之间每隔一度找到与x轴交点，并求得距离目标最近的角度，print出来。
 那么大致在44度离目标是最近的，炮弹水平射击的距离是99.9045234383
 ![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/figure_1.png)<br>
-*找到不算是精确的角度后，给予其误差
+* 找到不算是精确的角度后，给予其误差<br>
 关键用到```random.uniform(0.95,1.05)```
 就是在原先的代码中引入这个量，使得有误差的数据都变成在误差范围内的随机数。<br>
 那么引入随机变量，在风速，初速度后面都*random.uniform(1-a,1+a)再打出50个这样的炮弹
-！[]()
+！[](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/50%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%B0%84%E5%87%BB.png)
+上图就是在误差范围内，炮弹能够打击的位置
+
+##总结
+学会怎么把误差引入到物理计算的实际问题中
+
+##感谢
+谢谢室友lv，bobo的指导和协助<br>
+感谢百度百科
+<br>谢谢老师的ppt
+
 
