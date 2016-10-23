@@ -36,5 +36,23 @@ Consider cases in which the target is higher and lower thwn the cannon.Also inve
 > * 先利用‘for i in numpy.arange(91)’画出角度从1到90度
 ![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/1%E5%88%B090%E5%BA%A6%E9%A3%9E%E8%A1%8C%E7%82%AE%E5%BC%B9.png)<br>
 观察所有大致角度规律，当然肉眼看是毫无作用的。<br>
->接下来用一个循环确定设计的准确值
-![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/figure_1.png)
+* 接下来用一个循环确定设计的准确值
+```python
+ if self.y[-1][-1] < 0:
+    r = - (self.y[-1][-2] / self.y[-1][-1])
+    self.x[-1][-1] = (self.x[-1][-2] + r * self.x[-1][-1]) / (r + 1)  
+    self.distance.append(abs(self.target-self.x[-1][-1]))   
+        for i in numpy.arange(0,90,1):
+            if self.distance[int(i*10)] == min(self.distance):
+                print i
+                print self.x[int(i*10)][-1]
+```
+在0到90度之间每隔一度找到与x轴交点，并求得距离目标最近的角度，print出来。
+那么大致在44度离目标是最近的，炮弹水平射击的距离是99.9045234383
+![](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/figure_1.png)<br>
+*找到不算是精确的角度后，给予其误差
+关键用到```random.uniform(0.95,1.05)```
+就是在原先的代码中引入这个量，使得有误差的数据都变成在误差范围内的随机数。<br>
+那么引入随机变量，在风速，初速度后面都*random.uniform(1-a,1+a)再打出50个这样的炮弹
+！[]()
+
