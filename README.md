@@ -7,7 +7,7 @@
 * [x] [Exercise_05 : Chapter 1 problem](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX5/EX5.md)<br>
 * [x] [Exercise_06 : Chapter 2 problem ](https://github.com/jigga301/compuational_physics_N2014301020070/blob/master/EX6/EX6.md)<br>
 * [x] [Exercise_07 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/550227)<br>
-* [ ] [Exercise_08 : Chapter 3 problem ]()<br>
+* [x] [Exercise_08 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/566062)<br>
 * [ ] [Exercise_09 : Chapter 3 problem ]()<br>
 * [ ] [Exercise_10 : Chapter 3 problem ]()<br>
 * [ ] [Exercise_11 : Chapter 4 problem ]()<br>
