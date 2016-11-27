@@ -1,4 +1,4 @@
-```
+```python
 import pylab as pl
 import math
 class xingxing(object):
