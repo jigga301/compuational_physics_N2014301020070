@@ -1,3 +1,4 @@
+```python
 import pylab as pl
 import math
 class xingxing(object):
@@ -37,3 +38,4 @@ class xingxing(object):
 a=xingxing(1,0,0,5.0/9 ,4.0/9,0.001,2.4)
 a.calculate()
 a.plot1()
+```
