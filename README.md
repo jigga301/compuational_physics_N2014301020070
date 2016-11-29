@@ -9,7 +9,7 @@
 * [x] [Exercise_07 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/550227)<br>
 * [x] [Exercise_08 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/566062)<br>
 * [x] [Exercise_09 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/572716)<br>
-* [x] [Exercise_10 : Chapter 3 problem ](https://www.zybuluo.com/jigga12345/note/580639)<br>
+* [x] [Exercise_10 : Chapter 4 problem ](https://www.zybuluo.com/jigga12345/note/580639)<br>
 * [ ] [Exercise_11 : Chapter 4 problem ]()<br>
 * [ ] [Exercise_12 : Chapter 4 problem ]()<br>
 * [ ] [Exercise_13 : Chapter 5 problem ]()<br>
