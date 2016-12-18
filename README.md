@@ -12,6 +12,5 @@
 * [x] [Exercise_10 : Chapter 4 problem ](https://www.zybuluo.com/jigga12345/note/580639)<br>
 * [x] [Exercise_11 : Chapter 4 problem ](https://www.zybuluo.com/jigga12345/note/589426)<br>
 * [x] [Exercise_12 : Chapter 5 problem ](https://www.zybuluo.com/jigga12345/note/596978)<br>
-* [ ] [Exercise_13 : Chapter 5 problem ]()<br>
-* [ ] [Exercise_14 : Chapter 6 problem ]()<br>
+* [x] [Exercise_13 : Chapter 5 problem ](https://www.zybuluo.com/jigga12345/note/604791)<br>
 * [Final Project : ]()<br>
